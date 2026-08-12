@@ -1,0 +1,53 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Amin Zoghlami",
+    "number": "818-111-1111"
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Mike Trout",
+    "number": "27-27-272727"
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Naruto Uzumaki",
+    "number": ""
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Naruto Uzumaki"
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": "123-456-7890"
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "number": "123-456-7890"
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Amin Zoghlami",
+    "number": "818-222-2222"
+}
